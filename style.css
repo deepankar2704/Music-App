@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#wrapper {
+    background: rgb(163, 199, 122);
+    background: linear-gradient(90deg, rgba(163, 199, 122, 1) 0%, rgba(22, 144, 153, 1) 9%, rgba(128, 135, 10, 0.38707983193277307) 100%);
+}
+
+nav {
+    font-family: 'Inconsolata', monospace;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('music-img.jpg');
+    background-repeat: no-repeat;
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 74px;
+
+}
+
+.songItem {
+    height: 50px;
+    width: 800px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px 0;
+    align-items: center;
+    border-radius: 32px;
+    justify-content: space-between;
+}
+
+.songList h1 {
+    color: rgb(11, 140, 13);
+}
+
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp {
+    margin: 0 23px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Inconsolata', monospace;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.data-bar {
+    appearance: none;
+    width: 100%;
+    height: 0.75rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: rgba(182, 61, 182);
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    outline: 0;
+    z-index: -1;
+}
+
+.data-bar::-webkit-slider-thumb {
+    position: relative;
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+    margin-top: -3px;
+    transition: all 100ms ease-in;
+    box-shadow: 0px 0px 20px 0px rgba(255, 299, 61, 0.50);
+    z-index: 1;
+}
+
+.data-bar:focus {
+    outline: 3px solid yellow;
+}
+
+.data-bar::-webkit-slider-thumb:hover {
+    outline: 3px solid yellow;
+    background-color: black;
+    box-shadow: yellow;
+}
+
+.sub-class-design {
+    background: rgb(148, 132, 155);
+    background: linear-gradient(90deg, rgba(148, 132, 155, 1) 0%, rgba(22, 132, 153, 1) 9%, rgba(10, 114, 135, 0.38707983193277307) 100%);
+    transition: all 0.3s linear;
+    color: rgb(237, 204, 144);
+}
+
+.sub-class-design:hover {
+
+    scale: 1.05;
+    color: white;
+}
+
+.icon-class{
+    color: cyan;
+}
+.icon-class:hover{
+    color: blueviolet;
+}

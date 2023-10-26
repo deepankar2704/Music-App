@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li class="songItemsPlay brand"> <img src="./logo.png" alt=""><span>Spotify</span></li>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="songList">
+                <h1>Best of NCS- No Copyright Sounds</h1>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem sub-class-design">
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class=" songlistplay"> <span class="timeStamp">05.34 <i id="0"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design">
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="1"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design">
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="2"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design" sub-class-design>
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="3"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design">
+                    <img src="covers/10.jpg" alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="4"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design">
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="5"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItem sub-class-design">
+                    <img alt="">
+                    <span class="songName"></span>
+                    <span class="songlistplay"> <span class="timeStamp">05.34 <i id="6"
+                                class="songItemsPlay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songBanner sub-class-design"></div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" class="data-bar">
+            <div class="icons">
+                <!-- fontawesome icons -->
+                <!-- previous button -->
+                <i id="previous" class=" icon-class fas fa-3x fa-step-backward"></i>
+                <!-- play button -->
+                <i class="icon-class far fa-3x fa-play-circle" id="masterPlay"></i>
+                <!-- forward button -->
+                <i id="next" class="icon-class fas fa-3x fa-step-forward"></i>
+            </div>
+
+            <div class="songInfo">
+                <img id="gif" src="playing.gif" width="42px" alt="">
+                <span id="masterSongName"></span>
+            </div>
+        </div>
+
+
+
+        <script src="index.js"></script>
+        <script src="https://kit.fontawesome.com/9597c667d3.js" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
